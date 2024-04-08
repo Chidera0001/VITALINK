@@ -17,6 +17,9 @@ body{
     flex-direction: column;
     height: 100vh;
 }
+.vitalogo{
+    margin-bottom: 40px;
+}
 #signInBtn{
     color: skyblue;
 }
