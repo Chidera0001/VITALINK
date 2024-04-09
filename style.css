@@ -225,3 +225,7 @@ body{
 }
 
 /* Landing Page*/
+
+body #hero-section {
+    background-color: #fff;
+}
