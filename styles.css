@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
-
 /*Landing Page*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Source Sans 3", sans-serif;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 6%;
+    padding: 8px 6%;
   }
   
   .logo {
@@ -114,22 +112,18 @@ header {
  
   section {
     min-height: 100vh;
-    padding: 10rem 7% 2rem;
+    padding: 6rem 7% 2rem;
   }
-
-  /* .home-txt {
-    display: flex;
-    align-items: center;
-  } */
 
   .home-txt .home-content {
     max-width: 44rem;
   }
 
   .home-content h3 {
-    font-size: 2.7rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
+    line-height: 3.5rem;
   }
 
   .home-content p {
@@ -140,12 +134,13 @@ header {
 
   .btn {
     display: inline-block;
-    padding: 1rem 2rem;
+    padding: .6rem 3rem;
     background-color: #17BBEF;
-    border-radius: .6rem;
+    border-radius: .3rem;
     color: #fff;
     border: .2rem solid transparent;
     transition: .5s ease;
+    text-decoration: none;
   }
 
   .btn:hover {
@@ -158,8 +153,8 @@ header {
     /* top: 50%; */
     /* right: 0; */
     /*     transform: translateY(-60%); */
-    width: 768px;
-    height: 768px;
+    /* width: 768px;
+    height: 768px; */
     overflow: hidden;
     pointer-events: none;
 }
@@ -168,9 +163,9 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translateX(8%);
-    margin-top: 9%;
-    width: 92%;
+    transform: translateX(4%); /*shifts the image to the right with lesser figures*/
+    margin-top: 8.7%;
+    width: 93%;
 }
 
 .hero-img img {
