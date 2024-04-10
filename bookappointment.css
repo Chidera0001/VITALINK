@@ -86,16 +86,66 @@ button{
 .first-row .inquiry h3{
     color: #ACD9DC;
     font-weight: 600;
+    padding-bottom: 1rem;
 }
 
+.first-row div{
+    padding-bottom: 2rem;
+}
 
+.inquiry form{
+    display: flex;
+    flex-direction: row;
+    gap: 0.8rem;
+
+}
 .inquiry form span{
     font-weight: 700;
+    padding-right: 1rem;
 }
 
 .doctor-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+}
+
+.search-box h3{
+    padding-bottom: 1rem;
+}
+
+.search-box form{
+    display: flex;
+
+}
+
+.search-box button{
+    overflow: hidden;
+    background: url(images/search-icon.svg);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    text-indent: -999px;
+    width: 40px;
+    background-color: #17BBEF;
+    height: 60px;
+    
+    padding: 20px;
+
+}
+
+.search-box input{
+    height: 60px;
+    width: 300px;
+    background-color: #F7F7F8;
+    padding: 15px;
+    border: none;
+    position: relative;
+}
+
+
+
+.search-box input::placeholder{
+    color: rgba(151, 151, 151, 1);
+    
 }
 
 /*quote*/
