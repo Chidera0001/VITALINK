@@ -279,11 +279,13 @@ header {
     font-family: "Poppins", sans-serif;
 }
 
-#p-care-img {
-    width: 93%;
-    min-height: 100vh;
-    bottom: 0;
-    margin-right: 5%;
+#p-care-img img {
+    width: 100%;
+    height: 90%;
+}
+
+#p-care2 {
+  margin-left: 10%;
 }
 
 #p-care2 h2 {
@@ -308,17 +310,21 @@ span {
 }
 
 .check-row {
-    margin-top: 10%;
+  margin-top: 8%;
 }
 
-.check-col {
-    display: flex;
+.check-col1::before, .check-col2::before, .check-col3::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: url(./images/check.png) no-repeat;
+    background-size: contain;
+    float: left;
+    margin-right: 10px;
 }
 
-.check-col p {
-    margin-left: 5%;
+.check-col2, .check-col3 {
+    margin-top: 3%;
 }
 
-#check-col1 #check-col2 #check-col3 {
-    margin-top: 35%;
-}
+/* --- Qualified Doctors Section --- */
