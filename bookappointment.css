@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans 3', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul li{
+    list-style: none;
+}
+
+header{
+    padding: 20px 40px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.nav-links a{
+    color: #BBBBBB;
+    font-weight: 600;
+}
+
+.nav-links a.active{
+    color: #17BBEF;
+}
+
+.register a{
+    width: 150px;
+    height: 50px;
+    padding: 15px 20px;
+    color: #fff;
+    background-color: #17BBEF;
+    border-radius: 5px;
+}
+
+
+.description{
+    text-align: center;
+    padding-block: 100px;
+
+}
+
+.description p{
+    color: #979797;
+    
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    gap: 2rem;
+    padding-inline: 40px;
+}
+
+.first-row .inquiry h3{
+    color: #ACD9DC;
+    font-weight: 600;
+}
+
+
+.inquiry form span{
+    font-weight: 700;
+}
+
+.doctor-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
