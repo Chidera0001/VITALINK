@@ -229,3 +229,41 @@ header {
 #rpm {
     margin-left: 2%;
 }
+
+/* --- Services Section --- */
+.services {
+    margin: 20px 0;
+}
+
+#services-p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.s-row {
+    margin-top: 5%;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+}
+
+.s-col {
+    flex-basis: 24%; /* adjusted the space between boxes */
+    border-radius: 10px;
+    padding: 20px 12px;
+}
+
+#s1 {
+    background-color: #FEEFEB;
+}
+
+#s2 {
+    background-color: #D1F1FC;
+}
+#s3 {
+    background-color: #F1F5E9;
+}
+
+#s4 {
+    background-color: #E9F7F8;
+}
