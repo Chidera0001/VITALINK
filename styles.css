@@ -150,11 +150,6 @@ header {
   }
 
   .home-txt .hero-img-div {
-    /* top: 50%; */
-    /* right: 0; */
-    /*     transform: translateY(-60%); */
-    /* width: 768px;
-    height: 768px; */
     overflow: hidden;
     pointer-events: none;
 }
@@ -196,3 +191,41 @@ header {
     }
   }
   
+
+  /* -----Jambotron----- */
+  .jambotron {
+    box-shadow: rgba(100, 100, 111, .2) 0 7px 29px 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 50%; /* centralises the box*/
+    transform: translateX(-50%); /* this is to translate along the X-axis to bring the box back halfway so that it can be at the dead centre */
+    background-color: #17BBEF;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 10%;
+}
+
+.jambotron .jambotron-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 20px 32px;
+}
+
+.jambotron-col p {
+    text-align: left;
+    margin-left: 9%;
+    margin-top: 5%;
+}
+
+#hrs {
+    margin-right: 23%;
+}
+
+#rpm {
+    margin-left: 2%;
+}
