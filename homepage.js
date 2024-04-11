@@ -19,4 +19,4 @@ var counter = 1;
                 if (counter > 5) {
                     counter = 1;
                 }
-            }, 4000);
+            }, 5000);

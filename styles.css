@@ -451,3 +451,36 @@ span {
 #radio5:checked ~ .nav-auto .a-b5 {
   background-color: #17BBEF;
 }
+
+.qds {
+  display: inline-block;
+  padding: .5rem 1rem;
+  background-color: #17BBEF;
+  border-radius: .3rem;
+  color: #fff;
+  border: .2rem solid transparent;
+  transition: .5s ease;
+  text-decoration: none;
+  margin-left: 14%;
+}
+
+.qds:hover {
+  background: transparent;
+  color: #17BBEF;
+  border-color: #17BBEF;
+}
+
+.qds-txt h2{
+  font-size: 17px;
+}
+
+.qds-txt h3{
+  font-size: 30px;
+}
+
+.qds-txt p{
+  font-size: 16px;
+  color: #C4C4C4;
+  margin-top: 1%;
+  bottom: 0;
+}
