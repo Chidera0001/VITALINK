@@ -339,8 +339,10 @@ span {
 .slider {
   /* height: 400px;
   width: 750px; */
-  height: 100%;
-  width: 100%;
+  height: 500px;
+  width: 1750px;
+  /* height: 100%;
+  width: 100%; */
   overflow: hidden;
   position: relative;
 }
@@ -370,4 +372,39 @@ span {
   margin: 0 3px;
   cursor: pointer;
   border-radius: 50%;
+}
+
+.btm-sliders span:hover {
+  background: #17BBEF;
+}
+
+.slider .slide {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 38px;
+  height: 40px;
+  /* border: 1px solid #17BBEF; */
+  background-color: #17BBEF;
+  cursor: pointer;
+  background: rgba (255,255,255,0.1);
+  border-radius: 50%;
+}
+
+.slider .slide:hover {
+  background: rgba (255,255,255,0.2);
+}
+
+.slide span {
+  font-size: 25px;
+  color: #fff;
+  line-height: 41px;
+}
+
+.slider .left {
+  margin-left: 55%;
+}
+
+.slider .right {
+  right: 0;
 }

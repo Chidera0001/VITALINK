@@ -15,6 +15,7 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
     <title>Vitalink</title>
 </head>
 
@@ -168,12 +169,20 @@
                     <img src="./images/Lincoln.png" alt="Slide 5">
                 </div>
 
+                <div onclick="side_slide(-1)" class="slide left">
+                    <span class="fas fa-angle-left"></span>
+                </div>
+
+                <div onclick="side_slide(1)" class="slide right">
+                    <span class="fas fa-angle-right"></span>
+                </div>
+
                 <div class="btm-sliders">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
+                    <span onclick="btm_slide(1)"></span>
+                    <span onclick="btm_slide(2)"></span>
+                    <span onclick="btm_slide(3)"></span>
+                    <span onclick="btm_slide(4)"></span>
+                    <span onclick="btm_slide(5)"></span>
                 </div>
             </div>
         </div>
@@ -197,6 +206,24 @@
         </div>
     </div>
     <script type="text/javascript" src="./homepage.js"></script> -->
+
+    <script>
+        var indexValue = 1;
+        showImg(indexValue);
+        function btm_slide(e) { showImg(indexValue = e); }
+        function side_slide(e) { showImg(indexValue += e); }
+        function showImg(e) {
+            var i;
+            const img = document.querySelectorAll('img');
+            const sliders = document.querySelectorAll('.btm-sliders span');
+            if (e > img.length) { indexValue = 1 }
+            if (e < 1) { indexValue = img.length }
+            for (i = 0; i < img.length; i++) {
+                // img[i].style.display = "none";
+            }
+            img[indexValue - 1].style.display = "block";
+        }
+    </script>
 </body>
 
 </html>
