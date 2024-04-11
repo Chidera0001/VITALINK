@@ -328,7 +328,132 @@ span {
 }
 
 /* --- Qualified Doctors Section --- */
-.slides-body {
+.slides-section {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider {
+  height: 500px;
+  width: 1750px;
+  overflow: hidden;
+}
+
+.slide {
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slide input {
+  display: none;
+}
+
+.st {
+  width: 20%;
+  transition: 2s;
+}
+
+.st img {
+  height: 500px;
+  width: 1150px;
+}
+
+.nav-m {
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  justify-content: center;
+  display: flex;
+}
+
+.m-btn {
+  border: 1px solid #17BBEF;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  margin-top: 5%;
+  display: none;
+}
+
+.m-btn:not(:last-child){
+  margin-right: 30px;
+}
+
+.m-btn:hover {
+  background-color: #17BBEF;
+}
+
+#radio1:checked ~.first {
+  margin-left: 0;
+}
+
+#radio2:checked ~.first {
+  margin-left: -20%;
+}
+
+#radio3:checked ~.first {
+  margin-left: -40%;
+}
+
+#radio4:checked ~.first {
+  margin-left: -60%;
+}
+
+#radio5:checked ~.first {
+  margin-left: -80%;
+}
+
+.nav-auto {
+  position: absolute;
+  width: 800px;
+  display: flex;
+  justify-content: flex-end;
+  /* right: 43%; */
+  right: 15%;
+}
+
+.nav-auto div {
+  border: 1px solid #17BBEF;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+  margin-top: 63%;
+  cursor: pointer;
+}
+
+.nav-auto div:not(:last-child) {
+  margin-right: 30px;
+  justify-content: flex-end;
+}
+
+#radio1:checked ~ .nav-auto .a-b1 {
+  background-color: #17BBEF;
+}
+
+#radio2:checked ~ .nav-auto .a-b2 {
+  background-color: #17BBEF;
+}
+
+#radio3:checked ~ .nav-auto .a-b3 {
+  background-color: #17BBEF;
+}
+
+#radio4:checked ~ .nav-auto .a-b4 {
+  background-color: #17BBEF;
+}
+
+#radio5:checked ~ .nav-auto .a-b5 {
+  background-color: #17BBEF;
+}
+
+
+/* .slides-body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -336,14 +461,14 @@ span {
   text-align: center;
 }
 
-.slider {
+.slider { */
   /* height: 400px;
   width: 750px; */
-  height: 500px;
-  width: 1750px;
+  /* height: 500px;
+  width: 1750px; */
   /* height: 100%;
   width: 100%; */
-  overflow: hidden;
+  /* overflow: hidden;
   position: relative;
 }
 
@@ -383,9 +508,9 @@ span {
   top: 50%;
   transform: translateY(-50%);
   width: 38px;
-  height: 40px;
+  height: 40px; */
   /* border: 1px solid #17BBEF; */
-  background-color: #17BBEF;
+  /* background-color: #17BBEF;
   cursor: pointer;
   background: rgba (255,255,255,0.1);
   border-radius: 50%;
@@ -407,4 +532,4 @@ span {
 
 .slider .right {
   right: 0;
-}
+} */
