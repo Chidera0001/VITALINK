@@ -93,6 +93,23 @@ button{
     padding-bottom: 2rem;
 }
 
+.second-row form{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    padding-bottom: 4rem;
+
+}
+
+.second-row input{
+    height: 40px;
+    padding: 10px;
+    background-color: #F7F7F8;
+    color: #979797;
+    font-family: 'Sans Source 3', sans-serif;
+    border: none;
+}
+
 .inquiry form{
     display: flex;
     flex-direction: row;
@@ -104,9 +121,29 @@ button{
     padding-right: 1rem;
 }
 
+
+
 .doctor-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    column-gap: 2rem;
+}
+
+.doctor-cards .img-container{
+    width: 250px;
+    
+}
+
+.doctor-cards .img-container img{
+    width: 100%;
+    height: auto;
+
+}
+
+.doctor-cards .card{
+    background-color: #F5F5F5;
+    width: 250px;
+
 }
 
 .search-box h3{
@@ -197,20 +234,24 @@ button{
     color: #1B3C74;
     font-weight: 700;
     font-size: 40px;
-
-    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+   
 
 }
 
 .get-device h4{
     text-align: center;
+    padding-block: 1rem;
 }
 
 .get-device form{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 1rem;
+    padding-block: 1rem;
     gap: 1rem;
 
 }
@@ -219,7 +260,8 @@ button{
     height: 40px;
     width: 300px;
     border: none;
-    
+    padding: 10px;
+    font-family: 'Sans Source 3', sans-serif;
 }
 
 .get-device input::placeholder{
@@ -230,14 +272,33 @@ button{
 .get-device .mobile{
     display: flex;
     gap: 3rem;
+    padding-block: 2rem;
 }
+
+.mobile .img-container{
+    width: 700px;
+    padding-top: 4rem;
+}
+
+.mobile .img-container img{
+    width: 100%;
+    height: auto;
+}
+
+
 
 .store{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 2rem;
+    padding-block: 2rem;
     cursor: pointer;
+    
+}
+
+.store img{
+    width: 400px;
+
 }
 
 /*footer */

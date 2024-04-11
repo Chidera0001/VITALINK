@@ -97,11 +97,22 @@
         </div>
 
         <div class="second-row">
-            <span>Name</span>
-            <input type="text" placeholder="Enter patient name">
-            <input type="text" name="phone" id="phone" >
+            <form action="">
+                <div class="patient-name">
+                    <label for="patient-name">Name</label>
+                <input type="text" placeholder="Enter patient name" id="patient-name">
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone</label>
+                <input type="text" name="phone" id="phone" placeholder="XXXXXXXXX">
+                </div>
 
-            <button type="submit">Submit</button>
+                <button type="submit">Submit</button>
+            </form>
+            
+            
+
+            
 
             <div class="doctor-cards">
                 <div class="card">
@@ -239,7 +250,8 @@
     </div>
 
     <div class="get-device">
-        <h3>Download <span>Vitalink</span> App and <span>get the Device</span></h3>
+        <h3>Download the </h3>
+        <h3><span>Vitalink</span> App and <span>get the Device</span></h3>
         <h4>Get the link to download the app</h4>
         <form action="">
             <input type="text" placeholder="Enter phone number">
