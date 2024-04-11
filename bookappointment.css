@@ -221,9 +221,21 @@ button{
 /* get device*/
 
 .get-device{
-    padding: 20px 40px;
+    padding: 40px 40px;
     background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+    position: relative;
     
+}
+
+.get-device .img1{
+    position: absolute;
+    left: 210px;
+    top: 4px;
+}
+
+.get-device .img2{
+    position: absolute;
+    top: 70px;
 }
 
 .get-device span{
@@ -252,10 +264,18 @@ button{
     align-items: center;
     justify-content: center;
     padding-block: 1rem;
-    gap: 1rem;
+    gap: 0.5rem;
 
 }
 
+#country-code{
+    height: 40px;
+    width: 70px;
+    font-weight: 600;
+    border: none;
+    padding-left: 0.5rem;
+    
+}
 .get-device input{
     height: 40px;
     width: 300px;
