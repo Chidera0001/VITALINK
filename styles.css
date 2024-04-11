@@ -62,54 +62,6 @@ header {
     background-color: #17BBEF;
   }
   
-  /* Mobile Nav */
-  
-  .menu {
-    display: none;
-  }
-  
-  .overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    background-color: #24252a;
-    overflow-x: hidden;
-    transition: width 0.5s ease 0s;
-  }
-  
-  .overlay--active {
-    width: 100%;
-  }
-  
-  .overlay__content {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .overlay a {
-    padding: 15px;
-    font-size: 36px;
-    display: block;
-    transition: color 0.3s ease 0s;
-  }
-  
-  .overlay a:hover,
-  .overlay a:focus {
-    color: #0088a9;
-  }
-  .overlay .close {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 60px;
-    color: #edf0f1;
-  }
  
   section {
     min-height: 100vh;
@@ -484,3 +436,35 @@ span {
   margin-top: 1%;
   bottom: 0;
 }
+
+/* --- Download App Section --- */
+.da-section {
+  background-color: #f3f8ff;
+  top: 0;
+}
+
+.das-content h3 {
+  font-size: 30px;
+  line-height: 2.5rem;
+  transform: translateY(156%); /*adjust text to be where the arrow is, bigger value takes it up*/
+  margin-left: 26%;
+}
+
+.das-content p {
+  font-size: 1rem;
+  transform: translateY(700%); /* 800 to be on exact spot as seen on Figma */
+  margin-left: 26%;
+}
+
+.das-img img {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.da-section .das-img-div {
+  overflow: hidden;
+  pointer-events: none;
+}
+
