@@ -536,4 +536,5 @@ form button:hover {
 /* --- Footer --- */
 .footer {
   background-color: #17bbef;
+  height: 1px;
 }
