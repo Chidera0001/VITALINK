@@ -302,23 +302,32 @@ h4{
     position: relative;
     
 }
+  .get-device h3 {
+    font-size: 30px;
+    line-height: 2.5rem;
+    transform: translateY(-850%); /*adjust text to be where the arrow is, bigger value takes it up*/
+    margin-left: 26%;
+  }
+  
+  .das-content p {
+    font-size: 1rem;
+    transform: translateY(-2960%); /* 800 to be on exact spot as seen on Figma */
+    margin-left: 26%;
+  }
 
 .get-device .img1{
-    position: absolute;
-    left: 210px;
-    top: 4px;
-}
-
-.get-device .img2{
-    position: absolute;
-    top: 70px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+    overflow: hidden;
 }
 
 .get-device span{
     color: #17BBEF;
 }
 
-.get-device h3{
+/* .get-device h3{
     color: #1B3C74;
     font-weight: 700;
     font-size: 40px;
@@ -326,14 +335,10 @@ h4{
     align-items: center;
     justify-content: center;
     text-align: left;
-   
-
-}
-
-.get-device h4{
-    text-align: center;
-    padding-block: 1rem;
-}
+    /* transform: translateX(-7%); */
+    /* transform: translateY(-1200%);
+    margin-right: 10%;
+} */
 
 .get-device form{
     display: flex;
@@ -341,7 +346,8 @@ h4{
     justify-content: center;
     padding-block: 1rem;
     gap: 0.5rem;
-
+    transform: translateY(-916%);
+    margin-right: 6%;
 }
 
 #country-code{
@@ -362,16 +368,15 @@ h4{
 
 .get-device input::placeholder{
     color: #B4B4BE;
-
 }
 
-.get-device .mobile{
+/* .get-device .mobile{
     display: flex;
     gap: 3rem;
     padding-block: 2rem;
-}
+} */
 
-.mobile .img-container{
+/* .mobile .img-container{
     width: 700px;
     padding-top: 4rem;
 }
@@ -379,11 +384,35 @@ h4{
 .mobile .img-container img{
     width: 100%;
     height: auto;
+} */
+
+.das-btns {
+    margin-left: 40%;
+    transform: translateY(-500%); /* smaller number to go down */
+}
+  
+  .das {
+    margin-left: 3%;
 }
 
+#das-btn {
+    padding: .7rem 1.5rem;
+    background-color: #2d2d32;
+    border-radius: .2rem;
+    color: #fff;
+    border: .1rem solid transparent;
+    transition: .5s ease;
+    text-decoration: none;
+    font-size: 115%;
+  }
+  
+  #das-btn:hover {
+    background: transparent;
+    color: #2d2d32;
+    border-color: #2d2d32;
+  }
 
-
-.store{
+/* .store{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -395,7 +424,7 @@ h4{
 .store img{
     width: 400px;
 
-}
+} */
 
 /*footer */
 footer{

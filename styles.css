@@ -438,7 +438,115 @@ span {
 }
 
 /* --- Download App Section --- */
-.da-section {
+
+.get-device{
+  padding: 40px 40px;
+  background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+  position: relative;
+  padding-top: 4.7%;
+  margin-top: 2.5%;
+  
+}
+.get-device h3 {
+  font-size: 30px;
+  line-height: 2.5rem;
+  transform: translateY(-850%); /*adjust text to be where the arrow is, bigger value takes it up*/
+  margin-left: 26%;
+}
+
+.das-content p {
+  font-size: 1rem;
+  transform: translateY(-2960%); /* 800 to be on exact spot as seen on Figma */
+  margin-left: 26%;
+}
+
+.get-device .img1{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.get-device span{
+  color: #17BBEF;
+}
+
+.get-device form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-block: 1rem;
+  gap: 0.5rem;
+  transform: translateY(-916%);
+  margin-right: 6%;
+}
+
+#country-code{
+  height: 40px;
+  width: 70px;
+  font-weight: 600;
+  border: none;
+  padding-left: 0.5rem;
+  
+}
+.get-device input{
+  height: 40px;
+  width: 300px;
+  border: none;
+  padding: 10px;
+  font-family: 'Sans Source 3', sans-serif;
+}
+
+.get-device input::placeholder{
+  color: #B4B4BE;
+}
+
+.das-btns {
+  margin-left: 40%;
+  transform: translateY(-500%); /* smaller number to go down */
+}
+
+.das {
+  margin-left: 3%;
+}
+
+#das-btn {
+  padding: .7rem 1.5rem;
+  background-color: #2d2d32;
+  border-radius: .2rem;
+  color: #fff;
+  border: .1rem solid transparent;
+  transition: .5s ease;
+  text-decoration: none;
+  font-size: 115%;
+}
+
+#das-btn:hover {
+  background: transparent;
+  color: #2d2d32;
+  border-color: #2d2d32;
+}
+
+#sms-btn {
+  width: 11%;
+  height: 38px;
+  color: #fff;
+  background-color: #17BBEF;
+  border-radius: .3rem;
+  border: none;
+  border: .1rem solid transparent;
+  transition: .5s ease;
+  text-decoration: none;
+}
+  
+#sms-btn:hover {
+  background: transparent;
+  color: #17BBEF;
+  border-color: #17BBEF;
+}
+
+/* .da-section {
   background-color: #f3f8ff;
   margin-top: 4%;
 }
@@ -446,13 +554,13 @@ span {
 .das-content h3 {
   font-size: 30px;
   line-height: 2.5rem;
-  transform: translateY(205%); /*adjust text to be where the arrow is, bigger value takes it up*/
+  transform: translateY(205%); adjust text to be where the arrow is, bigger value takes it up
   margin-left: 26%;
 }
 
 .das-content p {
   font-size: 1rem;
-  transform: translateY(890%); /* 800 to be on exact spot as seen on Figma */
+  transform: translateY(890%); 800 to be on exact spot as seen on Figma
   margin-left: 26%;
 }
 
@@ -474,6 +582,24 @@ span {
 
 .das {
   margin-left: 3%;
+}
+
+#das-btn {
+  display: inline-block;
+  padding: .7rem 1.5rem;
+  background-color: #2d2d32;
+  border-radius: .2rem;
+  color: #fff;
+  border: .1rem solid transparent;
+  transition: .5s ease;
+  text-decoration: none;
+  font-size: 115%;
+}
+
+#das-btn:hover {
+  background: transparent;
+  color: #2d2d32;
+  border-color: #2d2d32;
 }
 
 form {
@@ -499,9 +625,9 @@ form button {
   border-radius: .3rem;
   color: #fff;
   border: .2rem solid transparent;
-  transition: .5s ease;
+  transition: .5s ease; */
   /* text-decoration: none; */
-}
+/* }
   
 form button:hover {
   background: transparent;
@@ -509,31 +635,51 @@ form button:hover {
   border-color: #17BBEF;
 }
 
-::placeholder {
+form button::placeholder {
   font-size: 12px;
   padding-left: 6%;
   color: #B4B4BE;
-}
-
-#das-btn {
-  display: inline-block;
-  padding: .7rem 1.5rem;
-  background-color: #2d2d32;
-  border-radius: .2rem;
-  color: #fff;
-  border: .1rem solid transparent;
-  transition: .5s ease;
-  text-decoration: none;
-  font-size: 115%;
-}
-
-#das-btn:hover {
-  background: transparent;
-  color: #2d2d32;
-  border-color: #2d2d32;
-}
+} */
 
 /* --- Footer --- */
-.footer {
-  background-color: #17bbef;
+footer{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 80px;
+  background-color: #17BBEF;
+  color: #fff;
+  gap: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 350;
+  font-size: 16px;
+
+  
+}
+
+footer .vitalink p{
+  padding-bottom: 1rem;
+  width: 300px;
+  line-height: 25px;
+  
+}
+
+.departments,
+.quick-links{
+  line-height: 40px;
+}
+
+
+.blog-post h5{
+  color: black;
+  padding-top: 2rem;
+}
+
+
+.blog-post p{
+  width: 200px;
+  padding-top: 1rem;
+}
+
+footer .copyright{
+  text-align: center;
 }
