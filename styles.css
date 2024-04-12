@@ -532,3 +532,8 @@ form button:hover {
   color: #2d2d32;
   border-color: #2d2d32;
 }
+
+/* --- Footer --- */
+.footer {
+  background-color: #17bbef;
+}
