@@ -643,43 +643,46 @@ color: #B4B4BE;
 
 /* --- Footer --- */
 footer{
-display: grid;
-grid-template-columns: repeat(4, 1fr);
-padding: 50px 80px;
-background-color: #17BBEF;
-color: #fff;
-gap: 2rem;
-font-family: 'Ubuntu', sans-serif;
-font-weight: 350;
-font-size: 16px;
-
-
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 50px 80px;
+  background-color: #17BBEF;
+  color: #fff;
+  gap: 2rem;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 350;
+  font-size: 16px;
 }
 
 footer .vitalink p{
-padding-bottom: 1rem;
-width: 300px;
-line-height: 25px;
-
+  padding-bottom: 1rem;
+  width: 300px;
+  line-height: 25px;
 }
 
 .departments,
 .quick-links{
-line-height: 40px;
+  line-height: 40px;
 }
 
+.departments a,
+.quick-links a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .blog-post h5{
-color: black;
-padding-top: 2rem;
+  color: black;
+  padding-top: 2rem;
 }
 
 
 .blog-post p{
-width: 200px;
-padding-top: 1rem;
+  width: 200px;
+  padding-top: 1rem;
 }
 
 footer .copyright{
-text-align: center;
+  transform: translateX(156%);
+  margin-top: 8%;
 }
