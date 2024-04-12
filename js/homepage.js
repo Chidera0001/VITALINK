@@ -12,7 +12,7 @@
 // });
 
 // Qualified Doctors Section
-var counter = 1;
+export var counter = 1;
             setInterval(function () {
                 document.getElementById('radio' + counter).checked = true;
                 counter++;
