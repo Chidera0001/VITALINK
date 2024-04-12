@@ -446,13 +446,13 @@ span {
 .das-content h3 {
   font-size: 30px;
   line-height: 2.5rem;
-  transform: translateY(156%); /*adjust text to be where the arrow is, bigger value takes it up*/
+  transform: translateY(205%); /*adjust text to be where the arrow is, bigger value takes it up*/
   margin-left: 26%;
 }
 
 .das-content p {
   font-size: 1rem;
-  transform: translateY(700%); /* 800 to be on exact spot as seen on Figma */
+  transform: translateY(890%); /* 800 to be on exact spot as seen on Figma */
   margin-left: 26%;
 }
 
@@ -474,6 +474,45 @@ span {
 
 .das {
   margin-left: 3%;
+}
+
+form {
+  margin-left: 26%;
+  transform: translateY(530%);
+}
+
+form select {
+  height: 35px;
+  font-size: 12px;
+}
+
+form input {
+  height: 35px;
+  width: 25%;
+}
+
+form button {
+  height: 38px;
+  width: 11%;
+  margin-left: 2%;
+  background-color: #17BBEF;
+  border-radius: .3rem;
+  color: #fff;
+  border: .2rem solid transparent;
+  transition: .5s ease;
+  /* text-decoration: none; */
+}
+  
+form button:hover {
+  background: transparent;
+  color: #17BBEF;
+  border-color: #17BBEF;
+}
+
+::placeholder {
+  font-size: 12px;
+  padding-left: 6%;
+  color: #B4B4BE;
 }
 
 #das-btn {
