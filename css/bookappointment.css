@@ -491,6 +491,10 @@ width: 200px;
 padding-top: 1rem;
 }
 
+footer h4{
+    color: white;
+}
+
 footer .copyright{
     transform: translateX(156%);
     margin-top: 8%;
