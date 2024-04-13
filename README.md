@@ -1,7 +1,16 @@
-# VITALINK Healthcare Monitoring System
+# VITALINK - Healthcare Monitoring System
 
+![VITALINK website picture](./images/Hero-Section.png)
 Welcome to VITALINK, your comprehensive solution for remote healthcare monitoring and management.
-![VITALINK website picture](https://raw.githubusercontent.com/Chidera0001/VITALINK/main/images/Vitalink_view.png)
+
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Key Features](#key-features)
+- [Installation](#installation)
+- [Project Structure](#project-structure)
+- [Contributing and Support](#contributing-and-support)
+- [Full Page](#full-page)
 
 ## Introduction
 
@@ -17,22 +26,33 @@ VITALINK is a remote patient monitoring system designed to improve healthcare ac
 - **Secure Data Storage:** Ensure the secure storage and transmission of patient data in compliance with healthcare regulations.
 - **Telemedicine Integration:** Seamlessly integrate with telemedicine platforms for virtual consultations and follow-ups.
 
-## Contributing
+## Installation
 
-We welcome contributions from the community to enhance VITALINK and make healthcare more accessible for everyone. To contribute, please contact us on a.ntwali@alustudent.com for procedures.
+To set up and run this project locally, follow these steps:
+
+```bash
+# Clone the repository
+git clone https://github.com/Chidera0001/VITALINK.git
+
+# Change directory to the project folder
+cd VITALINK
+
+# Install dependencies (if any)
+npm install
+```
 
 ## Project Structure
 
 - **Homepage:** The landing page of the website introducing VITALINK and its features.
-- **Login and Sign Up Pages:** Pages for user authentication and registration. 
+- **Login and Sign Up Pages:** Pages for user authentication and registration.
 - **Book Appointment Pages:** Pages for scheduling appointments with healthcare providers.
 - **Monitoring Dashboard:** Dashboard for patients to view their health data trends, track medication adherence, and set health goals. [Pending]
 - **Communication Platform:** Secure messaging and video consultation tools for seamless communication between patients and healthcare providers. [Pending]
 
+## Contributing and Support
 
-## Support
+We welcome contributions from the community to enhance VITALINK and make healthcare more accessible for everyone. To contribute, please contact us on a.ntwali@alustudent.com for procedures. You can also reach out for any questions, we are here to help!
 
-If you encounter any issues or have any questions, please feel free to reach out to us  We're here to help!
+## Full Page
 
-
-
+![VITALINK website picture](./images/Landing-Page.png)
