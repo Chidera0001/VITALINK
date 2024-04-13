@@ -11,6 +11,7 @@ body{
     font-family: 'Source Sans 3', sans-serif;
     width: 100%;
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 a{
@@ -150,24 +151,18 @@ button{
 .doctor-cards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 20px;
     padding-bottom: 50px;
+    padding-right: 20px;
 }
 
-.doctor-cards .img-container{
-    width: 250px;
-    
-}
 
-.doctor-cards .img-container img{
-    width: 100%;
-    height: auto;
 
-}
+
 
 .doctor-cards .card{
     background-color: #F5F5F5;
-    width: 250px;
+    
 
 }
 
@@ -215,12 +210,12 @@ button{
 
 
 .doctor-cards .card{
-    width: 300px;
-    height: 450px;
-    
+    width: 250px;
     background-repeat: no-repeat;
     background-size: contain;
     border-radius: 8px;
+    position: relative;
+    height: 350px;
 }
 
 .card.first{
@@ -238,9 +233,9 @@ button{
 
 .doctor-cards .text-container{
     position: relative;
-    top: 334px;
-    height: 120px;
-    width: 300px;
+    
+    top: 234px;
+
     background-color: #F5F5F5;
     display: flex;
     flex-direction: column;
@@ -250,6 +245,35 @@ button{
 
 
     
+}
+
+
+
+@media screen and (max-width: 1190px) {
+    .doctor-cards{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .grid{
+        grid-template-columns: 40% 60%;
+    }
+}
+
+.first-row button a{
+    color: white;
+}
+
+.first-row h3,
+.first-row h4{
+    padding-bottom: 1rem;
+}
+
+.first-row select{
+    height: 30px;
+    width: 200px;
 }
 
 .card p,
@@ -468,5 +492,6 @@ padding-top: 1rem;
 }
 
 footer .copyright{
-text-align: center;
-}
+    transform: translateX(156%);
+    margin-top: 8%;
+  }
