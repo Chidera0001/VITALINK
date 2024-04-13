@@ -1,6 +1,7 @@
 # VITALINK Healthcare Monitoring System
 
 Welcome to VITALINK, your comprehensive solution for remote healthcare monitoring and management.
+![VITALINK website picture](https://raw.githubusercontent.com/Chidera0001/VITALINK/main/images/Vitalink_view.png)
 
 ## Introduction
 
@@ -18,7 +19,7 @@ VITALINK is a remote patient monitoring system designed to improve healthcare ac
 
 ## Contributing
 
-We welcome contributions from the community to enhance VITALINK and make healthcare more accessible for everyone. To contribute, please contact us for procedures.
+We welcome contributions from the community to enhance VITALINK and make healthcare more accessible for everyone. To contribute, please contact us on a.ntwali@alustudent.com for procedures.
 
 ## Project Structure
 
