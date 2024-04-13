@@ -530,6 +530,11 @@ line-height: 25px;
 line-height: 40px;
 }
 
+.departments a,
+.quick-links a {
+  text-decoration: none;
+  color: #fff;
+}
 
 .blog-post h5{
 color: black;
@@ -549,4 +554,4 @@ footer h4{
 footer .copyright{
     transform: translateX(156%);
     margin-top: 8%;
-  }
+}
