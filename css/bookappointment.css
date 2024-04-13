@@ -33,7 +33,26 @@ button{
     color: #fff;
     background-color: #17BBEF;
     border-radius: 5px;
-    border: none;
+    border: 1px solid #17BBEF;
+    cursor: pointer;
+}
+
+#show-doctors{
+    width: 150px;
+    height: 40px;
+    padding: 8px 35px;
+    background-color: #17BBEF;
+    color: #fff;
+    border: 1px solid #17BBEF;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+#show-doctors:hover {
+    background: transparent;
+    color: #17BBEF;
+    border-color: #17BBEF;
 }
 
 .nav-bar{
@@ -58,14 +77,20 @@ button{
 }
 
 .register a{
-    width: 150px;
-    height: 50px;
-    padding: 15px 20px;
-    color: #fff;
+    padding: 9px 25px;
     background-color: #17BBEF;
+    color: #fff;
+    border: 1px solid #17BBEF;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
 }
 
+.register a:hover {
+    background: transparent;
+    color: #17BBEF;
+    border-color: #17BBEF;
+}
 
 .description{
     text-align: center;
@@ -134,7 +159,15 @@ button{
 
 .second-row button{
     margin-top: 2.5rem;
+    cursor: pointer;
 }
+
+.second-row button:hover {
+    background: transparent;
+    color: #17BBEF;
+    border-color: #17BBEF;
+}
+
 .inquiry form{
     display: flex;
     flex-direction: row;
