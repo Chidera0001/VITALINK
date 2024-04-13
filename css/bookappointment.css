@@ -551,7 +551,17 @@ footer h4{
     color: white;
 }
 
-footer .copyright{
-    transform: translateX(156%);
-    margin-top: 8%;
+.hr hr {
+    width: 451%;
+    border: 0;
+    border-bottom: 1px solid #173E87;
+    transform: translateX(-6.3%);
 }
+  
+footer .copyright{
+    margin-top: 9%;
+    transform: translateX(56%);
+    margin-bottom: -11%;
+    bottom: 0;
+}
+  
