@@ -29,8 +29,7 @@ VITALINK is a remote patient monitoring system designed to improve healthcare ac
 ## Installation
 
 To set up and run this project locally, follow these steps:
-
-```bash
+``bash
 # Clone the repository
 git clone https://github.com/Chidera0001/VITALINK.git
 
